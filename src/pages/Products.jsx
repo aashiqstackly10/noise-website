@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import products from "../data/products";
+import products from "../data/products.js";
 import ProductCard from "../components/ProductCard";
 
 function Products() {
